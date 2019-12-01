@@ -32,14 +32,19 @@ body {
 	background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
-    height: 60vh;
+    height: 92.1vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: white;
     position: relative;
 
 }    
+
+#big {
+	font-size: 4rem;
+}
 
 
 .overlay {
