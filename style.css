@@ -3,7 +3,6 @@ body {
 	margin: auto;
 }
 
-
 /*NAV BAR*/
 
 .navbar-brand {
@@ -19,22 +18,21 @@ body {
 .about {
 	background-image: url(Assets/about_cover.png);
 	background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    position: relative;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
 
 }    
 
 #big {
 	font-size: 4rem;
 }
-
 
 .overlay {
 	width: 100%;
@@ -44,24 +42,18 @@ body {
 	position: absolute;
 }
 
-h1 {
+.about h1 {
 	z-index: 1;
 	text-align: center;
 }
 
 /*Services Section*/
 #services {
-	height: 60vh;
-	padding: 3rem;
+	height: 50vh;
+	padding: 0rem;
+	display: flex;
+	align-items: center;
 }
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 430px) {
@@ -69,7 +61,7 @@ h1 {
 		font-size: 1.1rem;
 	}
 
-	h1 {
+	.about h1 {
 		font-size: 2rem;
 	}
 
