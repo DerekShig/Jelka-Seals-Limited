@@ -21,7 +21,7 @@ body {
 	background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +48,21 @@ h1 {
 	z-index: 1;
 	text-align: center;
 }
+
+/*Services Section*/
+#services {
+	height: 60vh;
+	padding: 3rem;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 430px) {
 	.navbar-brand {
