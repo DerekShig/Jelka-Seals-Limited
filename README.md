@@ -1,4 +1,4 @@
-# Jelka-Seals-Limited
+# Jelka Seals Limited
 
 https://derekshig.github.io/Jelka-Seals-Limited/
 
