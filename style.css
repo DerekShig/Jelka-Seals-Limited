@@ -14,17 +14,6 @@ body {
 	color: white !important;
 }
 
-
-@media screen and (max-width: 430px) {
-	.navbar-brand {
-		font-size: 1.1rem;
-	}
-
-	h1 {
-		font-size: 2rem;
-	}
-}
-
 /*ABOUT*/
 
 .about {
@@ -32,7 +21,7 @@ body {
 	background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
-    height: 92.1vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,4 +47,18 @@ body {
 h1 {
 	z-index: 1;
 	text-align: center;
+}
+
+@media screen and (max-width: 430px) {
+	.navbar-brand {
+		font-size: 1.1rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	#big {
+		font-size: 3rem;
+	}
 }
