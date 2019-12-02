@@ -8,13 +8,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">      
+        <link rel="stylesheet" href="style.css">  
+        <!-- Animation Libraries -->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
 
     <body>
 
-        <!-- NAV BAR -->
+        <!-- Nab Bar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="#"><i class="fas fa-cubes"></i>   Jelka Seals Limited</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,44 +40,43 @@
                 </div>
               </li>
               <li>
-                  <a class="nav-link" href="#">Alltrapods  <span class="badge badge-pill badge-warning">New!</span></a>
+                  <a class="nav-link" href="#">Alltrapods  <span class="badge badge-pill badge-warning animated infinite pulse">New!</span></a>
               </li>              
               <li>
                   <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-
           </div>
         </nav>
 
-        <!-- COVER PAGE -->
+        <!-- Cover Page -->
         <div class="about">
           <h1 id="big">Jelka Seals Limited</h1>
           <h1>Quality engineered seals and plastic components for all your drilling needs.</h1>
           <div class="overlay"></div>
         </div>
 
-        <!-- SERVICES -->
+        <!-- Services -->
         <section class="page-section" id="services">
           <div class="container">
             <h2 class="text-center mt-0">What We Offer</h2>
             <hr class="divider my-4">
             <div class="row">
-              <div class="col-lg-4 col-md-4 text-center fadeInLeft">
+              <div class="col-lg-4 col-md-4 text-center" data-aos="fade-right">
                 <div class="mt-5">
                   <object type="image/svg+xml" data="Assets/quality_color.svg" height="64px" width="64px"></object>
                   <h3 class="h4 mb-2">Top Quality</h3>
                   <p class="text-muted mb-0">JSL manufacturers components required for percussion drilling using only the highest quality of engineered materials.</p>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4 text-center">
+              <div class="col-lg-4 col-md-4 text-center" data-aos="fade-right">
                 <div class="mt-5">
                   <object type="image/svg+xml" data="Assets/file_color.svg" height="64px" width="64px"></object>
                   <h3 class="h4 mb-2">Large Selection</h3>
                   <p class="text-muted mb-0">From any specification, JSL can design products to facilitate a multitude of drilling applications.</p>
                 </div>
               </div>              
-              <div class="col-lg-4 col-md-4 text-center">
+              <div class="col-lg-4 col-md-4 text-center" data-aos="fade-right">
                 <div class="mt-5">
                   <object type="image/svg+xml" data="Assets/innovation.svg" height="64px" width="64px"></object>
                   <h3 class="h4 mb-2">Innovation</h3>
@@ -88,11 +89,24 @@
 
 
 
-
+        <!-- Bootstrap -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+
         <script type="text/javascript" src="script.js"></script>
+
+        <!-- AOS Library -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init({
+          duration: 750,
+          once: true
+        });</script>   
+             
     </body>
 
 </html>
+
+
+<!-- ICON CREDITS -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
