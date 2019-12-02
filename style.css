@@ -20,7 +20,7 @@ body {
 	background-position: center;
   background-repeat: no-repeat; 
   background-size: cover; 
-  height: 70vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,9 +50,7 @@ body {
 /*Services Section*/
 #services {
 	height: 50vh;
-	padding: 0rem;
-	display: flex;
-	align-items: center;
+	padding: 3rem;
 }
 
 
