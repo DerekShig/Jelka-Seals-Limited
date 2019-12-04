@@ -73,6 +73,13 @@ body {
 	font-size: 2rem;
 }
 
+.contact p {
+	padding-left:  2rem;
+}
+
+
+
+
 @media screen and (max-width: 430px) {
 	.navbar-brand {
 		font-size: 1.1rem;
@@ -93,7 +100,7 @@ body {
 		flex-direction: column;
 		align-items: center;
 	}
-	.contact i {
-		padding-left: 0;
+	.contact p {
+		padding-left: 0rem;
 	}
 }
