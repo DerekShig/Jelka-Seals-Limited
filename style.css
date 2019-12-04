@@ -1,8 +1,4 @@
-body {
-	width: 100%;
-	margin: auto;
-	scroll-behavior: smooth;
-}
+body{ overflow-x: hidden;}
 
 /*NAV BAR*/
 
@@ -49,11 +45,30 @@ body {
 }
 
 /*Services Section*/
+
 #services {
-	height: 50vh;
 	padding: 3rem;
+} 
+
+/*Footer Section*/
+
+.page-footer {
+	color: white;
+
 }
 
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.page-footer h6 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+ 
 
 @media screen and (max-width: 430px) {
 	.navbar-brand {
@@ -66,5 +81,13 @@ body {
 
 	#big {
 		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.contact {
+		display: flex;
+		flex-direction: column;
+		align-items: center	
 	}
 }
