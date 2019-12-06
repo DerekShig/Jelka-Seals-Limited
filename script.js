@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$(window).on("load", function(){
-	    $('h1').addClass('animated fadeInDown');
+	    $('.cover-page').addClass('animated fadeInDown');
 	});
 
 });

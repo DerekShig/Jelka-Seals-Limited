@@ -4,6 +4,7 @@ body, html {
 
 body {
 	position: relative;
+	padding-top: 70px;
 }
 
 /*NAV BAR*/
@@ -30,7 +31,6 @@ body {
   flex-direction: column;
   color: white;
   position: relative;
-
 }    
 
 #big {
@@ -71,18 +71,33 @@ body {
 .page-footer h6 {
 	text-align: center;
 	font-size: 2rem;
+	padding-top: 1rem;
 }
 
 .contact p {
 	padding-left: 1.5rem;
 }
 
+/*Contact Page*/
 
+.form-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact-form {
+	width: 70vw;
+}
 
 
 @media screen and (max-width: 430px) {
 	.navbar-brand {
 		font-size: 1.1rem;
+	}
+
+	body {
+		padding-top: 50px;
 	}
 
 	.about h1 {
@@ -92,6 +107,11 @@ body {
 	#big {
 		font-size: 3rem;
 	}
+
+	#contact-form {
+		width: 90vw;
+	}
+
 }
 
 @media screen and (max-width: 750px) {
