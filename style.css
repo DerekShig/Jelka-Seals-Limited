@@ -23,15 +23,15 @@ body {
 .about {
 	background-image: url(Assets/about_cover.png);
 	background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  position: relative;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	position: relative;
 }    
 
 .overlay {
@@ -53,6 +53,14 @@ body {
 
 .sub-text {
 	font-size: 1.5rem;
+}
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+  background-color: #d68522;
 }
 
 /*Services Section*/
@@ -93,6 +101,10 @@ body {
 
 #contact-form {
 	width: 70vw;
+}
+
+#map {
+	margin-bottom: 10px;
 }
 
 
