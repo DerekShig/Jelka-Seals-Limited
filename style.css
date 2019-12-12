@@ -115,13 +115,10 @@ mark {
 }
 
 
-
-
-
-
-
-
-
+.table-container {
+	width: 70%;
+	margin: auto;
+}
 
 
 @media screen and (max-width: 465px) {
@@ -147,7 +144,7 @@ mark {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
 	.contact {
 		display: flex;
 		flex-direction: column;
@@ -155,5 +152,12 @@ mark {
 	}
 	.contact p {
 		padding-left: 0rem;
+	}
+	.table-container {
+		width: 100%;
+	}	
+
+	.hide {
+		display: none;
 	}
 }
