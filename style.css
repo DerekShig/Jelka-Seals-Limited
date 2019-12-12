@@ -107,6 +107,22 @@ mark {
 	margin-bottom: 10px;
 }
 
+/*Products Page*/
+
+#product-header {
+	text-align: center;
+	margin: 1rem 0rem 1rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 465px) {
 	.navbar-brand {
