@@ -129,6 +129,8 @@ mark {
 
 .modal-header {
 	padding: 10px;
+	display: flex;
+	align-items: center;
 }
 
 .modal-header p {
