@@ -120,6 +120,14 @@ mark {
 	margin: auto;
 }
 
+.table {
+	table-layout: fixed;
+}
+
+.img-col {
+	width: 100px;
+}
+
 
 @media screen and (max-width: 465px) {
 	.navbar-brand {
