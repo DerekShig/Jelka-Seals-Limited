@@ -123,8 +123,12 @@ mark {
 	table-layout: fixed;
 }
 
+.table td {
+	vertical-align: middle;
+}
+
 .img-col {
-	width: 100px;
+	width: 75px;
 }
 
 .modal-header {
