@@ -114,6 +114,10 @@ mark {
 	margin: 1rem 0rem 1rem 0rem;
 }
 
+.table-container h3 {
+	padding-left: 4.8px;
+}
+
 .table-container {
 	width: 70%;
 	margin: auto;
