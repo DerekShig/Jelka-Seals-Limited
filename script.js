@@ -12,6 +12,7 @@ $(document).ready(function() {
       $(".modal-title").empty();
       var txt = $(this).attr("id");
       $(".modal-title").append(`<p>${txt}</p>`);
-  })
+  });
+ 
 
 });
