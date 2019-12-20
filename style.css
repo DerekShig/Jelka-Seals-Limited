@@ -111,7 +111,12 @@ mark {
 
 #product-header {
 	text-align: center;
-	margin: 1rem 0rem 1rem 0rem;
+	margin: 1rem 0rem 0rem 0rem;
+}
+
+#product-lead {
+	text-align: center;
+	margin-bottom: 1rem;
 }
 
 .table-container h3 {
@@ -147,6 +152,18 @@ mark {
 
 .modal-footer {
 	padding: 0px;
+}
+
+#list-tab {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+
+.list-group-item {
+	width: auto;
 }
 
 @media screen and (max-width: 465px) {
@@ -187,5 +204,13 @@ mark {
 
 	.hide {
 		display: none;
+	}
+
+	#list-tab {
+		flex-direction: column;
+	}
+
+	#product-lead {
+		font-size: 1.25rem;
 	}
 }
