@@ -13,6 +13,5 @@ $(document).ready(function() {
       var txt = $(this).attr("id");
       $(".modal-title").append(`<p>${txt}</p>`);
   });
- 
 
 });
