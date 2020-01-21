@@ -179,7 +179,7 @@ mark:hover {
 }
 
 .img-col {
-	width: 75px;
+	width: 85px;
 }
 
 .modal-header {
@@ -206,6 +206,15 @@ mark:hover {
 
 .list-group-item {
 	width: auto;
+}
+
+td img {
+	width: 70px;
+	height: auto;
+}
+
+td img:hover {
+	cursor: pointer;
 }
 
 @media screen and (max-width: 465px) {

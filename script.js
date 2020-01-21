@@ -14,4 +14,18 @@ $(document).ready(function() {
       $(".modal-title").append(`<p>${txt}</p>`);
   });
 
+  $('td img').on('click', function() {
+
+    $("#showImg").empty();
+    var image = $(this).attr("src");
+    $("#showImg").append(`<img class='img-fluid' src="${image}"/>`)
+
+    $(".modal-title").empty();
+    var txt = $(this).attr("id");
+    $(".modal-title").append(`<p>${txt}</p>`);
+
+  });
+
+
+
 });
