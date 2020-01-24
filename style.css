@@ -146,28 +146,39 @@ mark:hover {
 
 /*Contact Page*/
 
-.form-wrapper {
+.main-wrapper {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	width: 90%;
+	margin: auto;
+}
+
+.img-wrapper {
+	display: flex;
 	align-items: center;
+	width: 50%;
+	justify-content: center;
+	padding-left: 100px;
 }
 
-#contact-form {
-	width: 70vw;
+.email-wrapper {
+	width: 50%;
 }
 
-#map {
+.map-wrapper {
+	width: 90%;
+	margin: auto;
 	margin-bottom: 10px;
 }
 
 /*Products Page*/
 
-#product-header {
+.product-header {
 	text-align: center;
-	margin: 1rem 0rem 0.7rem 0rem;
+	margin: 2rem 0rem 0.7rem 0rem;
 }
 
-#product-lead {
+.product-lead {
 	text-align: center;
 	margin-bottom: 2rem;
 	padding: 0 1rem 0 1rem;
@@ -237,23 +248,15 @@ td img:hover {
 	.navbar-brand {
 		font-size: 1.1rem;
 	}
-
 	body {
 		padding-top: 50px;
 	}
-
 	.main-text {
 		font-size: 2rem;
 	}
-
 	.sub-text {
 		font-size: 1rem;
 	}
-
-	#contact-form {
-		width: 90vw;
-	}
-
 }
 
 @media screen and (max-width: 800px) {
@@ -268,16 +271,22 @@ td img:hover {
 	.table-container {
 		width: 100%;
 	}	
-
 	.hide {
 		display: none;
 	}
-
 	#list-tab {
 		flex-direction: column;
 	}
+	.product-lead {
+		display: none;
+	}
+}
 
-	#product-lead {
-		font-size: 1.25rem;
+@media screen and (max-width: 880px) {
+	.img-wrapper {
+		display: none;
+	}
+	.email-wrapper {
+		width: 100%;
 	}
 }
