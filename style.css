@@ -54,7 +54,8 @@ li > a:hover:before {
 /*ABOUT*/
 
 .about {
-	background-image: url(Assets/about_cover.png);
+	/*background-image: url(Assets/about_cover.png);*/
+	background-image: url('https://images.unsplash.com/photo-1523848309072-c199db53f137?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
 	background-position: center;
 	background-repeat: no-repeat; 
 	background-size: cover; 
