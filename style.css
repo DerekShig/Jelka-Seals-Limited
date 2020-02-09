@@ -292,6 +292,14 @@ td img:hover {
 	#email-img {
 		height: auto;
 	}
+	#call-to-action {
+		width: 200px;
+		height: auto;
+		margin-top: 30px;
+	}
+	.lead {
+		padding-left: 10px;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -330,5 +338,11 @@ td img:hover {
 @media screen and (max-width: 345px) {
 	#logo {
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#call-to-action {
+		margin: auto;
 	}
 }
