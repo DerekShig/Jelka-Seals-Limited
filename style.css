@@ -310,7 +310,7 @@ td img:hover {
 		display: none;
 	}
 	#list-tab {
-		flex-direction: column;
+		margin-top: 20px;
 	}
 	.product-lead {
 		display: none;
