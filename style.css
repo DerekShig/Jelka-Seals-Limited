@@ -343,6 +343,9 @@ td img:hover {
 
 @media only screen and (max-width: 991px) {
 	#call-to-action {
-		margin: auto;
+		margin: 15px auto auto auto;
+	}
+	.jumbotron {
+		padding-bottom: 0px;
 	}
 }
